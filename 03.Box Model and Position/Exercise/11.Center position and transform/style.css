@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font: 1em/1.2 Georgia,serif;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,25%);
+}
+
+div img{
+    width: 100%;
+    height: auto;
+}
+
+div:nth-child(2){
+    padding: 0.5em 2em;
+}
+
+p{
+    margin: 2em 0;
+}
+a{
+    display: block;
+    width: 80px;
+    background-color: rgb(0, 153, 0);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3em;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 10px;
+    left: 72%;
+    font-weight: 200;
+    
+}

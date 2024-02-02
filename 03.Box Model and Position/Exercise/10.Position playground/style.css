@@ -1,0 +1,67 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+.card {
+   max-width: 300px;
+   overflow: hidden;
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.2);
+   border: 1px solid #ccc;
+}
+.card::before {
+   display: block;
+   content: '';
+   position: absolute;
+   inset: 0;
+   box-shadow: 0 0 5em 0.5em rgb(0, 0, 0, 0.7) inset;
+}
+.card svg {
+   display: block;
+   width: 2em;
+   position: absolute;
+   bottom: 1em;
+   right: 1em;
+   fill: #fff;
+}
+.viewport {
+   height: 100vh;
+   position: relative;
+   overflow: hidden;
+}
+.viewport:nth-child(1) {
+   background-image: linear-gradient(
+      to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+   );
+}
+.viewport:nth-child(2) {
+   background-image: linear-gradient(
+      to right top,
+      #eea000,
+      #ff8654,
+      #ff7a90,
+      #fb84c4,
+      #cb96e3,
+      #aaa6f4,
+      #87b4fb,
+      #69bff8,
+      #52cffe,
+      #41dfff,
+      #46eefa,
+      #5ffbf1
+   );
+}

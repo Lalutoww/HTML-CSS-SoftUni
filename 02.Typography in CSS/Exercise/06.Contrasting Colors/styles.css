@@ -1,0 +1,15 @@
+body{
+    font: 18px/1.5 Helvetica,sans-serif ;
+    background-color: white;
+}
+article{
+    margin: 3em; /* 18*3=54px */
+    padding: 2em; /* 18*2=36px */
+    border-radius: 1em;
+    color: white;
+    text-indent: 40px;
+    background-color: rgb(51, 102, 153);
+}
+h1{
+    font-family: Georgia, serif;
+}
